@@ -3,6 +3,7 @@ import requests
 import aiohttp
 import youtube_dl
 
+from config import BOT_NAME as bn
 from pyrogram import filters, Client
 from youtube_search import YoutubeSearch
 
@@ -45,13 +46,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("Downloading the song by @IamYourEnemy...")
+    m.edit("Downloading the song by {bn} ...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Uploaded by [Hendra](t.me/IamYourEnemy)**'
+        rep = '**🎵 Uploaded by [zeki](t.me/pisces_xboy)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
