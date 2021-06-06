@@ -19,13 +19,13 @@ Add me to your group and play music freely!
             [
                 [
                     InlineKeyboardButton(
-                        "🎛 Commands", url="https://telegra.ph/Sujandra-Musik-04-24")
+                        "🎛 Panduan singkat", url="https://telegra.ph/aaksnsn-06-06")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VcgSupportGroup"
+                        "Group Chat", url="https://t.me/VcgSupportGroup"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Kutipankataaa"
+                        "🔊 Channel Bucin", url="t.me/randfeels"
                     )
                 ],[ 
                     InlineKeyboardButton(
