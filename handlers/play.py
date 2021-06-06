@@ -95,7 +95,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel Bucin",
-                        url="https://t.me/Kutipankataaa")
+                        url="https://t.me/randfeels")
                 ],[
                     InlineKeyboardButton("Close",'cls') 
                    
@@ -122,8 +122,8 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Channel Info",
-                            url=f"https://t.me/AkuUserBot")
+                            text="Channel Bucin",
+                            url=f"https://t.me/randfeels")
 
                     ]
                 ]
@@ -151,8 +151,8 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Follow Instagram 🌻",
-                                url=f"https://instagram.com/hendraputraaaaaa")
+                                text="Owner Ig",
+                                url=f"https://www.instagram.com/zekiloi/")
 
                         ]
                     ]
@@ -166,8 +166,8 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/VcgSupportGroup")
+                                text="Channel Bucin",
+                                url=f"https://t.me/randfeels")
 
                         ]
                     ]
@@ -213,8 +213,13 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Follow Instagram 🌻",
-                            url=f"https://instagram.com/hendraputraaaaaa")
+                            text="Owner Ig",
+                            url=f"https://instagram.com/zekiloi"),
+
+
+                        InlineKeyboardButton(
+                            text="Channel Bucin",
+                            url=f"https://t.me/randfeels")
 
                     ]
                 ]
